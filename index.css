@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,9 @@
   box-shadow: 5px 10px 8px #888888;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
 }
 
 .side-bar-logo-container {
@@ -75,12 +80,14 @@
 
 .home-nav-bar {
   background-color: #e6e6e6;
+  position: relative;
+  left: 260px;
 }
 
 .nav-section {
   background-color: #121e48;
   color: #fff;
-  width: 1260px;
+  width: 1259px;
   height: 245px;
   padding: 30px 15px 0 15px;
 }
@@ -115,7 +122,7 @@
   align-items: center;
   background-color: #2a345a;
   padding: 10px;
-  width: 200px;
+  width: 300px;
   border-radius: 30px;
   align-items: center;
   gap: 8px;
@@ -200,8 +207,132 @@
   gap: 10px;
 }
 
+.saler {
+  color: rgba(18, 20, 29, 0.5);
+}
+
 .finance-overview-items img {
   width: 30px;
   height: 30px;
   margin-top: 65px;
+}
+
+.current-project-ssection {
+  background-color: #fff;
+  height: 540px;
+  margin: 90px 15px 20px 15px;
+  border-radius: 10px;
+}
+
+.current-project-ssection {
+  padding: 25px 20px 0 20px;
+}
+
+.current-project-ssection-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Create-but {
+  background-color: rgba(28, 210, 173);
+  color: #fff;
+  height: 30px;
+  width: 90px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* .project-info {
+  } */
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 190px 0 20px;
+  margin: 40px 0 0 0;
+}
+
+.project-header h4 {
+  font-size: 20px;
+}
+
+.project-info hr {
+  margin-top: 20px;
+  background-color: silver;
+}
+
+.project-details-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* .project-details-items-but {
+  display: flex;
+  align-items: center;
+} */
+
+.project-details-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 190px 0 20px;
+}
+
+.project-details-items p {
+  color: rgba(142, 144, 166, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+}
+
+.sent {
+  background: rgb(229, 247, 251);
+  color: rgba(24, 195, 217, 1);
+}
+
+.project-details-items-p {
+  margin-left: -150px;
+  margin-right: -160px;
+
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.draft {
+  background: rgba(170, 170, 170, 0.2);
+  color: rgba(170, 170, 170, 1);
+}
+
+.rede {
+  width: 130px;
+}
+
+.paid {
+  background: rgba(28, 210, 173, 0.2);
+  color: rgba(28, 210, 173, 1);
+}
+.ux {
+  width: 130px;
+}
+
+.web {
+  width: 85px;
+}
+
+.rej {
+  color: rgba(236, 74, 74, 1);
+  background: rgba(254, 219, 219, 1);
 }
