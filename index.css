@@ -64,18 +64,32 @@
   align-items: center;
   width: 100%;
   height: 40px;
-  background-color: rgba(28, 210, 173, 0.2);
+  color: rgba(118, 118, 118, 1);
+
   padding: 10px 50px;
   gap: 10px;
-  color: rgba(28, 210, 173);
   font-size: 18px;
   font-family: Gilroy;
   font-weight: 700;
   border-radius: 5px;
 }
 
+.active {
+  color: rgba(28, 210, 173);
+  background-color: rgba(28, 210, 173, 0.2);
+  /* background-color: red; */
+}
+
 .dashboard-img {
   width: 20px;
+}
+
+.buttom {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .home-nav-bar {
@@ -335,4 +349,71 @@
 .rej {
   color: rgba(236, 74, 74, 1);
   background: rgba(254, 219, 219, 1);
+}
+
+.events-section-container {
+  background-color: #fff;
+  width: 453px;
+  height: 332px;
+  border-radius: 16px;
+  margin: 25px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.events-section-container h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.all-event-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow-y: auto;
+}
+
+.events-profile-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-right: 20px;
+}
+
+.birthday-card {
+  display: flex;
+  gap: 20px;
+}
+.birthday {
+  color: rgba(85, 87, 112, 1);
+  font-size: 14px;
+  line-height: 21px;
+}
+.birthday span {
+  color: rgba(30, 136, 229, 1);
+}
+
+.Wish {
+  /* width: 30px; */
+  background: rgba(30, 136, 229, 1);
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 46px;
+  height: 26px;
+  border-radius: 6px;
+}
+
+.congrations {
+  width: 111px;
+  background: rgba(30, 136, 229, 1);
+  border: none;
+  outline: none;
+  color: #fff;
+
+  height: 26px;
+  border-radius: 6px;
 }
